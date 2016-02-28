@@ -13,6 +13,7 @@
 		DDD5CBAE1C8286C90039A877 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD5CBAD1C8286C90039A877 /* Images.xcassets */; };
 		DDD5CBB11C8286C90039A877 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD5CBAF1C8286C90039A877 /* LaunchScreen.xib */; };
 		DDD5CBBD1C8286C90039A877 /* HamburguesasDelMundiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD5CBBC1C8286C90039A877 /* HamburguesasDelMundiTests.swift */; };
+		DDD5CBC71C8289C70039A877 /* datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD5CBC61C8289C70039A877 /* datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DDD5CBB61C8286C90039A877 /* HamburguesasDelMundiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburguesasDelMundiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD5CBBB1C8286C90039A877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDD5CBBC1C8286C90039A877 /* HamburguesasDelMundiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburguesasDelMundiTests.swift; sourceTree = "<group>"; };
+		DDD5CBC61C8289C70039A877 /* datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		DDD5CBA31C8286C90039A877 /* HamburguesasDelMundi */ = {
 			isa = PBXGroup;
 			children = (
+				DDD5CBC61C8289C70039A877 /* datos.swift */,
 				DDD5CBA61C8286C90039A877 /* AppDelegate.swift */,
 				DDD5CBA81C8286C90039A877 /* ViewController.swift */,
 				DDD5CBAA1C8286C90039A877 /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDD5CBC71C8289C70039A877 /* datos.swift in Sources */,
 				DDD5CBA91C8286C90039A877 /* ViewController.swift in Sources */,
 				DDD5CBA71C8286C90039A877 /* AppDelegate.swift in Sources */,
 			);

@@ -8,8 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    var hamburguesas = ColeccionDeHamburguesa()
+    
+    var paises = ColeccionDePaises()
+    
+    @IBOutlet weak var labelPais: UILabel!
+    
+    @IBOutlet weak var labelHamburguesa: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +27,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func cambiar(sender: AnyObject) {
+       labelHamburguesa.text = hamburguesas.obtenHamburguesa()
+        labelPais.text = paises.obtenPais()
+        
+    }
 
 }
 
